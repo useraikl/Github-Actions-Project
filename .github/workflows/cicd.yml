@@ -1,14 +1,11 @@
-name: Java CI with Maven
+name: CICD Pipeline
 
 on:
   push:
     branches: [ "main" ]
-  pull_request:
-    branches: [ "main" ]
 
 jobs:
-  build:
-
+  compile:
     runs-on: ubuntu-latest
 
     steps:
