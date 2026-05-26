@@ -108,5 +108,5 @@ jobs:
       with:
         context: .                                # ✅ fixed empty context
         push: true
-        tags: ketanl/notes-app:latest
+        tags: ketanl/notes-app:latest1
         file: ./Dockerfile
