@@ -125,6 +125,6 @@ jobs:
       with:
         context:
         push: true
-        tags: ketanl/notes-app:latest1
+        tags: ketanl/notes-app:latest
         file: ./Dockerfile
         #comment
