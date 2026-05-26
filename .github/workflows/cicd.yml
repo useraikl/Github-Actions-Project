@@ -40,8 +40,8 @@ jobs:
       run: sudo apt install gitleaks -y
     - name: Gitleaks code scan
       run: gitleaks detect source . -r gitleaks-report.json -f json
-
- test:
+  
+  test:
     runs-on: self-hosted
     needs: security-check
     steps:
